@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b12"
+    tools:context=".SecondActivity">
+
+
+
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_2"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_btn4"
+        android:text="记录文章"
+        android:textColor="#fff"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_2"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_btn5"
+        android:text="记录时间"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+
+
+</LinearLayout>
